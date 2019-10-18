@@ -1,0 +1,101 @@
+#container {
+	min-width: 360px;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+caption {
+	padding-bottom: 15px;
+	font-family: 'Verdana';
+	font-size: 1.2em;
+	color:#555;
+}
+
+table {
+	font-family: 'Verdana';
+	font-size: 12pt;
+	border-collapse: collapse;
+	border: 1px solid #EBEBEB;
+	margin: 10px auto;
+    text-align: center;
+    width: 100%;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #FCF9F9;
+}
+
+th {
+	font-weight: 600;
+    padding: 10px;
+}
+
+#second_chart {
+  min-width: 360px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+/* here is where I added my CSS from assignment 5 */
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+body {
+    font-family: 'Heebo', sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0;/* keep */
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+}
+
+.summary {
+  margin: 0;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  padding: 2rem;
+  background: #cc7e7a;
+}
+
+.caption1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.caption2 {
+  text-align: center;
+  margin: 1rem;
+}
+
+a:link {
+  color: #COLOR;
+}
+a:visited {
+  color: #COLOR;
+}
+a:focus {
+  color: #COLOR;
+}
+a:hover {
+  color: #COLOR;
+}
+a:active {
+  color: #COLOR;
+}
+
+@media screen and (max-width: 506px) {
+  #container {
+    width: 100%;
+  }
